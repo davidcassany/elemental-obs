@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: Apache-2.0
 # Define the names/tags of the container
 #!BuildTag: rancher/elemental-operator:latest
-#!BuildTag: rancher/elemental-operator:%OPERATOR_VERSION%
-#!BuildTag: rancher/elemental-operator:%OPERATOR_VERSION%-%RELEASE%
+#!BuildTag: rancher/elemental-operator:1.7.0-dev_git20240725.7489fa1
+#!BuildTag: rancher/elemental-operator:1.7.0-dev_git20240725.7489fa1-%RELEASE%
 #!UseOBSRepositories
 
 ARG SLMICRO_VERSION
@@ -26,7 +26,7 @@ ARG IMAGE_REPO=$BUILD_REPO/rancher/elemental-operator:latest
 # labelprefix=com.suse.elemental
 LABEL org.opencontainers.image.title="Rancher Elemental Operator"
 LABEL org.opencontainers.image.description="Implements the Elemental endpoint on the management cluster"
-LABEL org.opencontainers.image.version="%OPERATOR_VERSION%"
+LABEL org.opencontainers.image.version="1.7.0-dev_git20240725.7489fa1"
 LABEL org.opencontainers.image.url="https://github.com/rancher/elemental-operator"
 LABEL org.opencontainers.image.created="%BUILDTIME%"
 LABEL org.opencontainers.image.vendor="SUSE LLC"

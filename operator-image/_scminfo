@@ -1,5 +1,5 @@
 tag: v1.7.0-dev
-mtime: 1721817468
-commit: 4908496c84a4827b62dd8f96f7498ab40ca7ae32
-versionRPM: 1.7.0~dev
-versionOCI: 1.7.0-dev
+mtime: 1721922645
+commit: 7489fa1c9de82dafd8c5d031d5ea0dab2e2ee083
+versionRPM: 1.7.0~dev+git20240725.7489fa1
+versionOCI: 1.7.0-dev_git20240725.7489fa1
