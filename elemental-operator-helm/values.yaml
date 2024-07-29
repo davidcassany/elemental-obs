@@ -1,12 +1,12 @@
 image:
   empty: rancher/pause:3.1
   repository: "rancher/elemental-operator"
-  tag: "1.7.0-dev_git20240725.7489fa1"
+  tag: "1.7.0-dev"
   imagePullPolicy: IfNotPresent
 
 seedImage:
   repository: "rancher/seedimage-builder"
-  tag: "1.7.0-dev_git20240725.7489fa1"
+  tag: "1.7.0-dev"
   imagePullPolicy: IfNotPresent
 
 channel:
