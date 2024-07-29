@@ -14,7 +14,7 @@ questions:
     label: Elemental OS Channel Image
     group: "Elemental OS Channel"
   - variable: channel.tag
-    default: "1.7.0-dev_git20240725.7489fa1"
+    default: "1.7.0-dev"
     description: "Specify Elemental OS channel image tag"
     type: string
     label: "Elemental OS Channel Tag"
