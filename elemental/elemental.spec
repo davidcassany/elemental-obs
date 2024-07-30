@@ -15,7 +15,7 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit c1800c9cbd7d0ce8df10940839cfd1aa4496ad85
+%define commit 0781a09c29ccd43a69a243f6b49212811ae1789f
 %define c_date 20240730
 
 %define systemdir /system
@@ -29,8 +29,8 @@ License:        Apache-2.0
 Group:          System/Management
 URL:            https://github.com/rancher/%{name}
 Source:         %{name}.tar.xz
-Source1:        LICENSE
-Source2:        README.md
+#Source1:        LICENSE
+#Source2:        README.md
 Source3:        %{name}-rpmlintrc
 
 Requires:       elemental-toolkit >= 2.1.0
@@ -59,8 +59,8 @@ Rancher elemental node updater. To be installed on the node.
 
 %prep
 %setup -q -n %{name}
-cp %{S:1} .
-cp %{S:2} .
+#cp %{S:1} .
+#cp %{S:2} .
 
 %build
 
