@@ -1,8 +1,8 @@
 -------------------------------------------------------------------
-Tue Jul 30 14:22:35 CEST 2024 - David Cassany <dcassany@suse.com>
+Tue Jul 30 14:32:04 UTC 2024 - David Cassany <dcassany@suse.com>
 
 - Changes on top of v2.1.0-dev:
-  * 8ec184ca Adapting spec to the gitified OBS project
+  * fda00551 Adapting spec to the gitified OBS project
   * d42f3c8b Bump github.com/onsi/ginkgo/v2 from 2.19.0 to 2.19.1
   * 19a9ae32 Bump github.com/onsi/gomega from 1.33.1 to 1.34.0
   * 3c885d2c Bump github.com/jaypipes/ghw

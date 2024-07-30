@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Thu Jul 25 15:50:45 UTC 2024 - David Cassany <dcassany@suse.com>
+Tue Jul 30 14:29:24 UTC 2024 - David Cassany <dcassany@suse.com>
 
 - Changes on top of v1.7.0-dev:
+  * c75cae01 Fine tune specfile
   * 7489fa1c Adding _service files to .obs sources
   * 4908496c Adapting specfile to new package format
   * b8664194 [Airgap] fix unstable channel extraction
