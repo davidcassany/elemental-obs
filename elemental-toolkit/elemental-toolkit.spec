@@ -16,7 +16,7 @@
 #
 
 # These variables are coupled to builder scripts
-%define commit 8ec184ca63f9cf6f177db66c6573d93acfa1b7b8
+%define commit fda005517878acb932b63c1645b3a211a2df3358
 %define c_date 20240730
 
 Name:           elemental-toolkit
@@ -81,10 +81,10 @@ if [ "%{c_date}" = "_replaceme_" ]; then
   exit 1
 fi
 
-export GIT_TAG=`echo "%{version}" | cut -d "+" -f 1`
-GIT_COMMIT=`echo "%{commit}"`
+export GIT_TAG=$(echo "%{version}" | cut -d "+" -f 1)
+GIT_COMMIT=$(echo "%{commit}")
 export GIT_COMMIT=${GIT_COMMIT:0:8}
-export COMMITDATE=$(date -d @%{c_date} +%Y%m%d)
+export COMMITDATE="%{c_date}"
 
 make build-cli
 
