@@ -11,7 +11,7 @@
 ARG SLMICRO_VERSION
 
 FROM suse/sl-micro/${SLMICRO_VERSION}/rt-os-container:latest AS os
-FROM suse/sl-micro/${SLMICRO_VERSION}/baremetal-os-container:latest AS builder
+FROM suse/sl-micro/${SLMICRO_VERSION}/rt-os-container:latest AS builder
 
 WORKDIR /iso
 
@@ -32,7 +32,6 @@ FROM scratch
 COPY --from=builder /busybox /
 COPY --from=builder /output /elemental-iso
 
-ARG SLMICRO_VERSION
 ARG BUILD_REPO=%%IMG_REPO%%
 ARG IMAGE_REPO=$BUILD_REPO/suse/sl-micro/%%SLMICRO_VERSION%%/rt-iso-image
 ARG IMAGE_TAG=2.1.0-dev-%RELEASE%

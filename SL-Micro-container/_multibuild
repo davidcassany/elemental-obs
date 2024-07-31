@@ -1,6 +1,10 @@
 <multibuild>
   <flavor>base</flavor>
+  <flavor>base-iso</flavor>
   <flavor>kvm</flavor>
+  <flavor>kvm-iso</flavor>
   <flavor>baremetal</flavor>
+  <flavor>baremetal-iso</flavor>
   <flavor>rt</flavor>
+  <flavor>rt-iso</flavor>
 </multibuild>
