@@ -1,0 +1,4 @@
+<multibuild>
+  <flavor>base</flavor>
+  <flavor>kvm</flavor>
+</multibuild>
