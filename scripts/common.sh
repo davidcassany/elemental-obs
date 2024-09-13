@@ -227,7 +227,7 @@ function create_tarball {
   local basepath
   local error_msg="error creating tarball:"
 
-  basepath="$(basename "${src}")"
+  basepath="$(basename "${dst}")"
 
   [ "$#" -lt 2 ] && _abort "${error_msg} two arguments required"
   [ -d "${src}" ] || _abort "${error_msg} '${src}' is not a directory"
