@@ -23,7 +23,7 @@ dev:
   parseVersion: none
   versionOffset: no
 
-staging:
+staging_fork:
 - repo: rancher/elemental-toolkit
   branch: v2.2.x
   parseVersion: patch
@@ -32,8 +32,8 @@ staging:
   branch: v1.7.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental
-  branch: v2.2.x
+- repo: davidcassany/elemental
+  branch: unify_iso_and_os_images
   parseVersion: patch
   versionOffset: no
 - repo: rancher-sandbox/cluster-api-provider-elemental
