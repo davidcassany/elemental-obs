@@ -10,7 +10,7 @@
 ARG SLMICRO_VERSION
 
 FROM suse/sl-micro/${SLMICRO_VERSION}/base-os-container:latest AS os
-FROM suse/sl-micro/${SLMICRO_VERSION}/baremetal-os-container:latest AS builder
+FROM suse/sl-micro/${SLMICRO_VERSION}/base-os-container:latest AS builder
 
 WORKDIR /iso
 
