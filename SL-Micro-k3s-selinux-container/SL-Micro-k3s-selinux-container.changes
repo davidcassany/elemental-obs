@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Oct  2 17:23:54 UTC 2024 - Elemental Bot <elemental@suse.de>
+
+- Changes on top of v2.2.0-rc1:
+  * f88d4b5 Merge ISO and OS container images
+
+-------------------------------------------------------------------
 Tue Oct  1 07:45:34 UTC 2024 - Elemental Bot <elemental@suse.de>
 
 - Update to v2.2.0-rc1:
