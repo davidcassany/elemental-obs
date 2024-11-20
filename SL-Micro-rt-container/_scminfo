@@ -1,5 +1,5 @@
-tag: v2.2.0-rc1
-mtime: 1727768734
-commit: 52b2534f6baab914c693f1c495e44673f955de41
-versionRPM: 2.2.0~rc1
-versionOCI: 2.2.0-rc1
+tag: v2.3.0-dev
+mtime: 1731594564
+commit: 4802782fba72d474ca1c1609b1ae3ab732e2eba2
+versionRPM: 2.3.0~dev
+versionOCI: 2.3.0-dev
