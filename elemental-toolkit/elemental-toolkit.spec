@@ -16,11 +16,11 @@
 #
 
 # These variables are coupled to builder scripts
-%define commit 30a64d70be3ac8013830318334ad42b031eba7af
-%define c_date 20240925
+%define commit 877bf6a89097394f6899d6fa5344825fa95afcc5
+%define c_date 20241125
 
 Name:           elemental-toolkit
-Version:        2.2.0
+Version:        2.3.0~dev
 Release:        0
 Summary:        The command line client for Elemental
 License:        Apache-2.0
@@ -31,7 +31,7 @@ Source:         %{name}.tar.xz
 Requires:       dosfstools
 Requires:       e2fsprogs
 # for blkdeactivate
-Requires: lvm2
+Requires:       lvm2
 Requires:       parted
 Requires:       rsync
 Requires:       udev
@@ -42,6 +42,10 @@ Requires:       xorriso >= 1.5
 Requires:       mtools
 Requires:       util-linux
 Requires:       gptfdisk
+Requires:       dracut
+Requires:       grub2
+Requires:       squashfs
+Requires:       util-linux-systemd
 
 %if 0%{?suse_version}
 BuildRequires:  golang(API) >= 1.22
