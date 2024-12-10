@@ -15,14 +15,14 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit 52b2534f6baab914c693f1c495e44673f955de41
-%define c_date 20241001
+%define commit 462c1b35ad607ac2130a9ca91ebddc3385c37ae0
+%define c_date 20241210
 
 %define systemdir /system
 %define oemdir %{systemdir}/oem
 
 Name:           elemental
-Version:        2.2.0~rc1
+Version:        2.3.0~dev
 Release:        0
 Summary:        A Rancher and Kubernetes optimized immutable Linux distribution
 License:        Apache-2.0
