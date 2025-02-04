@@ -1,12 +1,12 @@
 # Charts repository
-%if "%_repository" == "charts"
+%if "%_repository" == "charts" || "%_repository" == "charts_Micro_61"
 Type: helm
 Repotype: none
 Patterntype: none
 Required: perl-YAML-LibYAML
 %endif
 
-%if "%_repository" == "containerkiwi"
+%if "%_repository" == "containerkiwi" || "%_repository" == "containerkiwi_Micro_61"
 Type: kiwi
 Repotype: slepool:nobuildid
 Patterntype: none
@@ -14,18 +14,9 @@ Patterntype: none
 
 # Container images are build in 'containers' repository
 # ISO images are build in 'containers' repository too
-%if %_repository == "containers"
+%if "%_repository" == "containers" || "%_repository" == "containers_Micro_61"
 Required: elemental-post-build-extract-iso
 Repotype: staticlinks
-
-%ifarch aarch64
-# Configuration for the RPi image
-Required: elemental-post-build-generate-rpi-image
-Macros:
-# RPi seed image size in MB
-%img_size 1280
-:Macros
-%endif
 
 Type: docker
 BuildEngine: docker
@@ -34,7 +25,7 @@ Prefer: registries-conf-suse
 Prefer: kernel-default
 %endif
 
-%if %_repository == "containers" || "%_repository" == "charts"
+%if "%_repository" == "containers" || "%_repository" == "charts"
 Macros:
 %img_repo %(echo registry.suse.de:%{_project}:containers | tr ":" "/" | tr '[:upper:]' '[:lower:]')
 %slmicro_version 6.2
@@ -43,5 +34,11 @@ Macros:
 BuildFlags: dockerarg:SLMICRO_VERSION=6.2
 %endif
 
-# Fix choice (go1.22 vs go1.22-openssl) for helm
-Prefer: go1.22
+%if "%_repository" == "containers_Micro_61" || "%_repository" == "charts_Micro_61"
+Macros:
+%img_repo %(echo registry.suse.de:%{_project}:containers | tr ":" "/" | tr '[:upper:]' '[:lower:]')
+%slmicro_version 6.1
+:Macros
+
+BuildFlags: dockerarg:SLMICRO_VERSION=6.1
+%endif
