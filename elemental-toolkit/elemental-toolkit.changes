@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Mon Feb  3 15:13:55 UTC 2025 - Elemental Bot <elemental@suse.de>
+Tue Feb  4 12:28:15 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v2.3.0-dev:
+  * d16cafcb Fix elemental-toolkit build for Dev env
   * 85f7130c Bump github.com/google/go-containerregistry from 0.20.2 to
             0.20.3
   * bb4ed47b Bump k8s.io/mount-utils from 0.32.0 to 0.32.1
