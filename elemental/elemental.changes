@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Thu Jan 23 23:05:04 UTC 2025 - Elemental Bot <elemental@suse.de>
+
+- Changes on top of v2.3.0-dev:
+  * be1ff0c Update copyright year (2025)
+  * 1243b12 Dockerfile.dev.os: enable elemental-register.timer (#1655)
+  * 2cef6d9 Merge ISO and OS container images
+  * c52cc44 Remove no longer valid OBS workflow
+  * 09c4ab9 Add documentation to test private CA renewal (#1606)
+  * 81c342e Add support to define CATTLE_AGENT_STRICT_VERIFY (#1616)
+
+-------------------------------------------------------------------
 Tue Oct  1 07:45:34 UTC 2024 - Elemental Bot <elemental@suse.de>
 
 - Update to v2.2.0-rc1:

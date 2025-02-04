@@ -1,7 +1,7 @@
 #
 # spec file for package elemental
 #
-# Copyright (c) 2022 - 2024 SUSE LLC
+# Copyright (c) 2022 - 2025 SUSE LLC
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -15,14 +15,14 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit 52b2534f6baab914c693f1c495e44673f955de41
-%define c_date 20241001
+%define commit 8d821197bf3b9d61f451662d17195caeac229c23
+%define c_date 20250123
 
 %define systemdir /system
 %define oemdir %{systemdir}/oem
 
 Name:           elemental
-Version:        2.2.0~rc1
+Version:        2.3.0~dev
 Release:        0
 Summary:        A Rancher and Kubernetes optimized immutable Linux distribution
 License:        Apache-2.0
