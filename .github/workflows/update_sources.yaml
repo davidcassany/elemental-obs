@@ -67,7 +67,7 @@ jobs:
         fi
         echo "${output}" >> $GITHUB_OUTPUT
 
-    
+
   update-sources:
     needs:
     - set-repositories
@@ -112,7 +112,7 @@ jobs:
         done
     - name: Update sources
       run: |
-        make update-sources 
+        make update-sources
     - name: Clean paths
       run: |
         rm -rf scripts
@@ -125,7 +125,7 @@ jobs:
       run: |
         git config --global user.email "elemental@suse.de"
         git config --global user.name "elementalbot"
-        
+
         branch="${BRANCH}_${SRC_REPO//\//_}"
 
         git checkout -b ${branch}
@@ -141,7 +141,7 @@ jobs:
 
         git commit -s -m "Automated commit from GHA workflow"
         git push origin ${branch} --force
-    - if: ${{ steps.commit.outputs.clean != 'true' }} 
+    - if: ${{ steps.commit.outputs.clean != 'true' }}
       name: Update/create PR
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,44 +3,19 @@
 
 dev:
 - repo: rancher/elemental-toolkit
-  branch: main
+  branch: experimental
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-operator
-  branch: main
+  branch: experimental
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
-  branch: main
-  parseVersion: patch
-  versionOffset: no
-- repo: rancher-sandbox/cluster-api-provider-elemental
-  branch: main
+  branch: experimental
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-channels
-  branch: main
+  branch: experimental
   parseVersion: none
   versionOffset: no
 
-staging:
-- repo: rancher/elemental-toolkit
-  branch: v2.2.x
-  parseVersion: patch
-  versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.7.x
-  parseVersion: patch
-  versionOffset: no
-- repo: rancher/elemental
-  branch: v2.2.x
-  parseVersion: patch
-  versionOffset: no
-- repo: rancher-sandbox/cluster-api-provider-elemental
-  branch: main
-  parseVersion: patch
-  versionOffset: no
-- repo: rancher/elemental-channels
-  branch: v1.7
-  parseVersion: none
-  versionOffset: no
