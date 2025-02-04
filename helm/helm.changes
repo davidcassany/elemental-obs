@@ -1,4 +1,75 @@
 -------------------------------------------------------------------
+Thu Jan 16 05:57:13 UTC 2025 - Johannes Kastl <opensuse_buildservice@ojkastl.de>
+
+- Update to 3.17.0 (bsc#1235318, CVE-2024-45338):
+  Full changelog:
+  https://github.com/helm/helm/releases/tag/v3.17.0
+  * Notable Changes
+    - Allow pulling and installation by OCI digest
+    - Annotations and dependencies are now in chart metadata output
+    - New --take-ownership flag for install and upgrade commands
+    - SDK: Authorizer and registry authorizer are now configurable
+    - Removed the Kubernetes configuration file permissions check
+    - Added username/password to helm push and dependency
+      build/update subcommands
+    - Added toYamlPretty template function
+
+-------------------------------------------------------------------
+Mon Dec 16 21:45:40 UTC 2024 - dmueller@suse.com
+
+- Update to version 3.16.4 (bsc#1234482, CVE-2024-45337):
+  * Bump golang.org/x/crypto from 0.30.0 to 0.31.0
+  * Bump the k8s-io group with 7 updates
+
+-------------------------------------------------------------------
+Thu Nov 14 13:05:38 UTC 2024 - dmueller@suse.com
+
+- Update to version 3.16.3:
+  * fix: fix label name
+  * Fix typo in pkg/lint/rules/chartfile_test.go
+  * Increasing the size of the runner used for releases.
+  * fix(hooks): correct hooks delete order
+  * Bump github.com/containerd/containerd from 1.7.12 to 1.7.23
+
+-------------------------------------------------------------------
+Fri Oct 11 08:24:54 UTC 2024 - opensuse_buildservice@ojkastl.de
+
+- Update to version 3.16.2:
+  * Revering change unrelated to issue #13176
+  * adds tests for handling of Helm index with broken chart
+    versions #13176
+  * improves handling of Helm index with broken helm chart versions
+    #13176
+  * Bump the k8s-io group with 7 updates
+  * adding check-latest:true
+  * Grammar fixes
+  * Fix typos
+
+-------------------------------------------------------------------
+Sat Sep 14 14:00:08 UTC 2024 - opensuse_buildservice@ojkastl.de
+
+- Update to version 3.16.1:
+  * bumping version to 1.22.7
+  * Merge pull request #13327 from mattfarina/revert-11726
+
+-------------------------------------------------------------------
+Sat Sep 14 13:55:08 UTC 2024 - opensuse_buildservice@ojkastl.de
+
+- Update to version 3.16.0:
+  Helm v3.16.0 is a feature release. Users are encouraged to
+  upgrade for the best experience.
+  * Notable Changes
+    - added sha512sum template function
+    - added ActiveHelp for cmds that don't take any more args
+    - drops very old Kubernetes versions support in helm create
+    - add --skip-schema-validation flag to helm 'install',
+      'upgrade' and 'lint'
+    - fixed bug to now use burst limit setting for discovery
+    - Added windows arm64 support
+  * Full changelog see
+    https://github.com/helm/helm/releases/tag/v3.16.0
+
+-------------------------------------------------------------------
 Wed Aug 14 16:54:27 UTC 2024 - opensuse_buildservice@ojkastl.de
 
 - Update to version 3.15.4:
