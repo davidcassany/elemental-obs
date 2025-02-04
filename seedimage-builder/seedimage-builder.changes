@@ -1,4 +1,24 @@
 -------------------------------------------------------------------
+Fri Jan 31 14:51:08 UTC 2025 - Elemental Bot <elemental@suse.de>
+
+- Changes on top of v1.8.0-dev:
+  * 8fc8efd4 [Airgap] extend yq support in the airgap script (#898)
+  * 97db17d7 make linter happy - update copyright dates (#899)
+  * f4d7b6f5 Fix generation of already present resources (#892)
+  * a7297052 SeedImage: fix description (#889)
+  * 884beb59 golanci-lint: change output format (#887)
+  * ad150a87 Add created date to the ManagedOSVersion common metadata fields
+            (#886)
+  * 5e14e968 Label Templates: add IP addresses to the Network variables
+            (#885)
+  * b3c9ef88 Update default channels to 6.1 images (#883)
+  * 6372ec67 Only reset network if a network configurator is used (#874)
+  * cf1a2d64 Do not include Config to MachineRegistration as pointer (#870)
+  * fad205a5 Split elemental-operator and elemental-register at OBS level
+  * ab193eca Add support for agent-tls-mode Rancher setting (#863)
+  * de3c37df RBAC: restrict SeedImage controller auth to fleet-default (#864)
+
+-------------------------------------------------------------------
 Tue Oct  1 12:54:40 UTC 2024 - Elemental Bot <elemental@suse.de>
 
 - Update to v1.7.0-rc1:
