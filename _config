@@ -14,12 +14,24 @@ Patterntype: none
 
 # Container images are build in 'containers' repository
 # ISO images are build in 'containers' repository too
-%if "%_repository" == "containers" || "%_repository" == "containers_Micro_61"
+%if "%_repository" == "containers_Micro_61"
 Required: elemental-post-build-extract-iso
 Repotype: staticlinks
 
 Type: docker
 BuildEngine: docker
+
+Prefer: registries-conf-suse
+Prefer: kernel-default
+%endif
+
+# Docker builds are failing for Micro 6.2
+%if "%_repository" == "containers"
+Required: elemental-post-build-extract-iso
+Repotype: staticlinks
+
+Type: docker
+BuildEngine: podman
 
 Prefer: registries-conf-suse
 Prefer: kernel-default
