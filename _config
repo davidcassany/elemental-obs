@@ -36,11 +36,11 @@ Prefer: kernel-default
 
 %if %_repository == "containers" || "%_repository" == "charts"
 Macros:
-%img_repo %(echo registry.opensuse.org:%{_project}:containers | tr ":" "/" | tr '[:upper:]' '[:lower:]')
-%slmicro_version 6.1
+%img_repo %(echo registry.suse.de:%{_project}:containers | tr ":" "/" | tr '[:upper:]' '[:lower:]')
+%slmicro_version 6.2
 :Macros
 
-BuildFlags: dockerarg:SLMICRO_VERSION=6.1
+BuildFlags: dockerarg:SLMICRO_VERSION=6.2
 %endif
 
 # Fix choice (go1.22 vs go1.22-openssl) for helm
