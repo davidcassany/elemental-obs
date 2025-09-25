@@ -1,7 +1,9 @@
 -------------------------------------------------------------------
-Mon Sep 22 09:18:24 UTC 2025 - Elemental Bot <elemental@suse.de>
+Thu Sep 25 14:59:31 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v2.3.0-dev:
+  * 42f640b8 Create /dev/null in the chroot env
+  * b199db13 Use restorecon to label previously binded mountpoints
   * c16e1d5b Bump github.com/jaypipes/ghw from 0.15.0 to 0.19.1
   * 1fef8d1f Bump github.com/spf13/cobra from 1.9.1 to 1.10.1
   * a19b7208 Bump github.com/spf13/pflag from 1.0.6 to 1.0.10
