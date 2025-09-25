@@ -23,9 +23,9 @@ dev:
   parseVersion: none
   versionOffset: no
 
-staging:
-- repo: rancher/elemental-toolkit
-  branch: v2.3.x
+experimental:
+- repo: davidcassany/elemental-toolkit
+  branch: fix_labelling
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-operator
