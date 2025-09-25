@@ -1,13 +1,7 @@
 -------------------------------------------------------------------
-Mon Sep  1 07:37:12 UTC 2025 - Elemental Bot <elemental@suse.de>
+Thu Jan 23 23:05:04 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v2.3.0-dev:
-  * e8e8161 Disable disk flavor
-  * cf99f4b Include an empty /etc/machine-id file (bsc#1239623)
-  * 5c12b2c cni and cni-plugins are no longer part of SL Micro 6.2
-  * 4725df2 Switch to BCI base image instead of toolbox
-  * 11ba9af Adding --force flag to init command for aarch64 as it is for
-            x86_64
   * be1ff0c Update copyright year (2025)
   * 1243b12 Dockerfile.dev.os: enable elemental-register.timer (#1655)
   * 2cef6d9 Merge ISO and OS container images
