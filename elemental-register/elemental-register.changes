@@ -1,4 +1,33 @@
 -------------------------------------------------------------------
+Wed Dec 17 15:30:08 UTC 2025 - Elemental Bot <elemental@suse.de>
+
+- Changes on top of v1.8.0-dev:
+  * 9f3906e1 Install yip config files in before-install step
+  * 2d9d1d7d Bump github.com/rancher-sandbox/go-tpm and its dependencies
+  * 338f5668 Add maintenance case to elemental-airgap.sh
+  * 5899edce Stop using toolbox image in favor of bci-base image
+  * fda434de [ports  from 1.7.x] Update default channel data (#919)
+  * 97608c0c OS channel: enable baremetal channel by default
+  * 43f3b001  Bump libraries to incorporate CVE fixes  (#913)
+  * 317de1e2 Label Templates: improve Random family processing (#914)
+  * aa6474c6 operator: update RBAC for upgrade plans (#908)
+  * 8fc8efd4 [Airgap] extend yq support in the airgap script (#898)
+  * 97db17d7 make linter happy - update copyright dates (#899)
+  * f4d7b6f5 Fix generation of already present resources (#892)
+  * a7297052 SeedImage: fix description (#889)
+  * 884beb59 golanci-lint: change output format (#887)
+  * ad150a87 Add created date to the ManagedOSVersion common metadata fields
+            (#886)
+  * 5e14e968 Label Templates: add IP addresses to the Network variables
+            (#885)
+  * b3c9ef88 Update default channels to 6.1 images (#883)
+  * 6372ec67 Only reset network if a network configurator is used (#874)
+  * cf1a2d64 Do not include Config to MachineRegistration as pointer (#870)
+  * fad205a5 Split elemental-operator and elemental-register at OBS level
+  * ab193eca Add support for agent-tls-mode Rancher setting (#863)
+  * de3c37df RBAC: restrict SeedImage controller auth to fleet-default (#864)
+
+-------------------------------------------------------------------
 Mon Sep 22 13:36:30 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Update to v1.8.0:
