@@ -1,7 +1,10 @@
 -------------------------------------------------------------------
-Wed Aug 27 12:22:48 UTC 2025 - Elemental Bot <elemental@suse.de>
+Wed Dec 17 15:30:08 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.8.0-dev:
+  * 9f3906e1 Install yip config files in before-install step
+  * 2d9d1d7d Bump github.com/rancher-sandbox/go-tpm and its dependencies
+  * 338f5668 Add maintenance case to elemental-airgap.sh
   * 5899edce Stop using toolbox image in favor of bci-base image
   * fda434de [ports  from 1.7.x] Update default channel data (#919)
   * 97608c0c OS channel: enable baremetal channel by default
