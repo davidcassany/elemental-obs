@@ -6,8 +6,8 @@ dev:
   branch: main
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: main
+- repo: davidcassany/elemental-operator
+  branch: dev_testing
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
