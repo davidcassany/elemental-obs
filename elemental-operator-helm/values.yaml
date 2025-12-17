@@ -17,30 +17,30 @@ seedImage:
 
 # default Elemental channels
 defaultChannels:
-  slMicro61Baremetal:
-    included: true
-    name: sl-micro-6.1-baremetal-channel
-    enabled: true
+  slMicro60Baremetal:
+    included: true 
+    name: sl-micro-6.1-baremetal
+    enabled: false
     image: "%%IMG_REPO%%/rancher/elemental-channel/sl-micro:6.1-baremetal"
-    deleteNoLongerInSyncVersions: false
-  slMicro61Base:
-    included: true
-    name: sl-micro-6.1-base-channel
+    deleteNoLongerInSyncVersions: true
+  slMicro60Base:
+    included: true 
+    name: sl-micro-6.1-base
     enabled: false
     image: "%%IMG_REPO%%/rancher/elemental-channel/sl-micro:6.1-base"
-    deleteNoLongerInSyncVersions: false
-  slMicro61KVM:
+    deleteNoLongerInSyncVersions: true
+  slMicro60KVM:
     included: true
-    name: sl-micro-6.1-kvm-channel
+    name: sl-micro-6.1-kvm
     enabled: false
     image: "%%IMG_REPO%%/rancher/elemental-channel/sl-micro:6.1-kvm"
-    deleteNoLongerInSyncVersions: false
-  slMicro61RT:
+    deleteNoLongerInSyncVersions: true
+  slMicro60RT:
     included: true
-    name: sl-micro-6.1-rt-channel
+    name: sl-micro-6.1-rt
     enabled: false
     image: "%%IMG_REPO%%/rancher/elemental-channel/sl-micro:6.1-rt"
-    deleteNoLongerInSyncVersions: false
+    deleteNoLongerInSyncVersions: true
 
 # number of operator replicas to deploy
 replicas: 1
