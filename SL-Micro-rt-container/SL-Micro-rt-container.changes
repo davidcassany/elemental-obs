@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
-Fri Oct 10 23:05:24 UTC 2025 - Elemental Bot <elemental@suse.de>
+Mon Dec 15 10:42:41 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v2.3.0-dev:
   * bf38576 Add policycoreutils-python-utils (bsc#1240623)
