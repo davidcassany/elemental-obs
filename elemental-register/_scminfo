@@ -1,5 +1,5 @@
-tag: v1.8.0-dev
-mtime: 1756297368
-commit: 5899edceaecf54b0398015e37528adb616856efe
-versionRPM: 1.8.0~dev
-versionOCI: 1.8.0-dev
+tag: v1.7.0-dev
+mtime: 1765985408
+commit: 9f3906e1ae5bc39c9e51f0f238693281533046d9
+versionRPM: 1.7.0~dev
+versionOCI: 1.7.0-dev
