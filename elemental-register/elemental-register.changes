@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed Dec 17 15:30:08 UTC 2025 - Elemental Bot <elemental@suse.de>
+Thu Dec 18 09:21:00 UTC 2025 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.8.0-dev:
+  * f6d25fb1 roleRefs are not namespaced
   * 9f3906e1 Install yip config files in before-install step
   * 2d9d1d7d Bump github.com/rancher-sandbox/go-tpm and its dependencies
   * 338f5668 Add maintenance case to elemental-airgap.sh
