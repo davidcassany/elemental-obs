@@ -15,8 +15,8 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit ae69448f4ea19cfd4b1782b4a0486b981d742e0b
-%define c_date 20250922
+%define commit e24777486045b51dee09128ac28bd5bd3ae354fa
+%define c_date 20251218
 
 Name:           elemental-register
 Version:        1.8.0
