@@ -1,13 +1,13 @@
 # Sets the relation of branches in current repository with
 # source repositories branches
 
-maintenance_6.2:
+fork_for_testing:
 - repo: rancher/elemental-toolkit
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.8.x
+- repo: davidcassany/elemental-operator
+  branch: updated_libraries_new_capi
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
