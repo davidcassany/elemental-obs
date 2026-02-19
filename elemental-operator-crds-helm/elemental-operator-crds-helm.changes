@@ -1,7 +1,16 @@
 -------------------------------------------------------------------
-Fri Jan 16 12:46:00 UTC 2026 - Elemental Bot <elemental@suse.de>
+Thu Feb 19 14:49:50 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.8.1:
+  * ed510d43 make vendor
+  * 5083a051 bump to wrangler v3
+  * 7a4cbd32 Fix changes noted by make verify
+  * 8cad87da make generate
+  * c1d08ec1 Bump controller generator to version 0.19
+  * 4c9dc315 Update controller runtime options
+  * e40cc966 New vendor
+  * 10a2c858 Updated cluster-api, steve, rancher/apis, client-go and k8s/api
+            to the level they were at rancher v2.13
   * 49ebf0b7 Update headers to 2026
   * fd13ba92 Update questions to include SL Micro 6.2
 
