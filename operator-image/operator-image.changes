@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Feb 20 14:27:18 UTC 2026 - Elemental Bot <elemental@suse.de>
+
+- Update to v1.8.2-beta2:
+  * 0aee723b Run 'make generate' to recreate generated code and vendor folder
+  * 493132e9 Bump to cluster API libraries to v1.12.x
+
+-------------------------------------------------------------------
 Fri Feb 20 09:56:11 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Update to v1.8.2-beta1:
