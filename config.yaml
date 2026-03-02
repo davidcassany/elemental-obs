@@ -6,8 +6,12 @@ staging:
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
+- repo: davidcassany/elemental-operator
   branch: updated_libraries_new_capi
+  parseVersion: patch
+  versionOffset: no
+- repo: davidcassany/elemental-operator
+  branch: v1.8.x
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
