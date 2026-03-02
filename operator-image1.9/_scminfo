@@ -1,5 +1,5 @@
-tag: v1.9.0-beta1
-mtime: 1772465564
-commit: db15bbd0ed4598b5cd6e8279aeb38c58491bad5d
-versionRPM: 1.9.0~beta1
-versionOCI: 1.9.0-beta1
+tag: v1.9.0-rc1
+mtime: 1772466043
+commit: f61d15c45eaea5631521cb309402e1ccc4561af7
+versionRPM: 1.9.0~rc1
+versionOCI: 1.9.0-rc1
