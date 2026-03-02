@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Mar  2 15:55:09 UTC 2026 - Elemental Bot <elemental@suse.de>
+
+- Update to v1.9.0-rc1:
+  * 0756bf64 Adapt OBS packages to a 1.9 version to coexist with 1.8 version
+  * 9899a752 Fix cluster api version in test environment
+
+-------------------------------------------------------------------
 Mon Mar  2 15:48:09 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Update to v1.9.0-rc1:
