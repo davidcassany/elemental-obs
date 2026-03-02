@@ -15,7 +15,7 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit f61d15c45eaea5631521cb309402e1ccc4561af7
+%define commit 9802815828b927daaca41eb0249d488816cb38c5
 %define c_date 20260302
 
 %define minorv 1.9
@@ -71,13 +71,13 @@ baremetal installations.
 %package -n elemental-httpfy%{minorv}
 Summary: Simple http server
 
-%description -n elemental-httpfy
+%description -n elemental-httpfy%{minorv}
 httpfy starts a simple http server, serving files from the current dir.
 
 %package -n elemental-seedimage-hooks%{minorv}
 Summary: Hooks used in SeedImage builder
 
-%description -n elemental-seedimage-hooks
+%description -n elemental-seedimage-hooks%{minorv}
 Hooks used in SeedImage builder to copy firmware when building disk-images.
 
 %prep
