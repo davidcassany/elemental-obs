@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: Apache-2.0
 # Define the names/tags of the container
 #!BuildTag: rancher/elemental-operator:latest
-#!BuildTag: rancher/elemental-operator:1.9.0-beta1
-#!BuildTag: rancher/elemental-operator:1.9.0-beta1-%RELEASE%
+#!BuildTag: rancher/elemental-operator:1.9.0-rc1
+#!BuildTag: rancher/elemental-operator:1.9.0-rc1-%RELEASE%
 #!UseOBSRepositories
 
 ARG SL_VERSION
@@ -11,7 +11,7 @@ FROM bci/bci-base:${SL_VERSION} as BASE
 
 RUN mkdir /installroot
 RUN zypper --installroot /installroot in -y --no-recommends \
-      elemental-operator ca-certificates ca-certificates-mozilla
+      elemental-operator1.9 ca-certificates ca-certificates-mozilla
 
 FROM scratch as OPERATOR
 
@@ -26,7 +26,7 @@ ARG IMAGE_REPO=$BUILD_REPO/rancher/elemental-operator:latest
 # labelprefix=com.suse.elemental
 LABEL org.opencontainers.image.title="Rancher Elemental Operator"
 LABEL org.opencontainers.image.description="Implements the Elemental endpoint on the management cluster"
-LABEL org.opencontainers.image.version="1.9.0-beta1"
+LABEL org.opencontainers.image.version="1.9.0-rc1"
 LABEL org.opencontainers.image.url="https://github.com/rancher/elemental-operator"
 LABEL org.opencontainers.image.created="%BUILDTIME%"
 LABEL org.opencontainers.image.vendor="SUSE LLC"
