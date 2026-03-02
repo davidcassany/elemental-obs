@@ -1,5 +1,5 @@
-tag: v1.8.2-beta1
-mtime: 1772141702
-commit: 9899a75295b5002ed49f158f1d432c7f5612d922
-versionRPM: 1.8.2~beta1
-versionOCI: 1.8.2-beta1
+tag: v1.8.1
+mtime: 1772447244
+commit: 709f8aba71aa466ebc7c910091a373040dfe96ba
+versionRPM: 1.8.1
+versionOCI: 1.8.1

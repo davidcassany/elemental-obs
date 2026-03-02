@@ -1,10 +1,9 @@
 -------------------------------------------------------------------
-Thu Feb 26 21:35:02 UTC 2026 - Elemental Bot <elemental@suse.de>
+Mon Mar  2 15:55:09 UTC 2026 - Elemental Bot <elemental@suse.de>
 
-- Changes on top of v1.8.2-beta1:
+- Update to v1.9.0-rc1:
+  * 0756bf64 Adapt OBS packages to a 1.9 version to coexist with 1.8 version
   * 9899a752 Fix cluster api version in test environment
-  * 0aee723b Run 'make generate' to recreate generated code and vendor folder
-  * 493132e9 Bump to cluster API libraries to v1.12.x
 
 -------------------------------------------------------------------
 Fri Feb 20 09:56:11 UTC 2026 - Elemental Bot <elemental@suse.de>
