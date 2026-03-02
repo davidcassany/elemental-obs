@@ -11,7 +11,7 @@ staging:
   parseVersion: patch
   versionOffset: no
 - repo: davidcassany/elemental-operator
-  branch: v1.8.x
+  branch: remove_latest_in_1.8_series
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
