@@ -1,9 +1,9 @@
 -------------------------------------------------------------------
-Fri Mar 20 14:28:43 UTC 2026 - Elemental Bot <elemental@suse.de>
+Mon Mar 23 08:49:10 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.9.0:
-  * ea0dcbab WIP: testing new log
-  * da5659b5 Ensure the machine inventory selector keeps looking for a match
+  * e922d107 Fix logging
+  * 20839971 Ensure the machine inventory selector keeps looking for a match
 
 -------------------------------------------------------------------
 Fri Mar  6 09:48:13 UTC 2026 - Elemental Bot <elemental@suse.de>
