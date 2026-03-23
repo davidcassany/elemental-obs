@@ -15,7 +15,7 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit e922d10719a3c63a6d78955bff44be7c77f62746
+%define commit 7008b2c3b00fead7b2f73c9e09a3902d3f391ecc
 %define c_date 20260323
 
 Name:           elemental-register

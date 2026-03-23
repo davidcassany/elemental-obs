@@ -1,9 +1,9 @@
 -------------------------------------------------------------------
-Mon Mar 23 08:49:10 UTC 2026 - Elemental Bot <elemental@suse.de>
+Mon Mar 23 11:20:50 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.9.0:
-  * e922d107 Fix logging
-  * 20839971 Ensure the machine inventory selector keeps looking for a match
+  * 7008b2c3 Ensure debug sets controller runtime log level to 7
+  * 9c215192 Ensure the machine inventory selector keeps looking for a match
 
 -------------------------------------------------------------------
 Fri Mar  6 09:48:13 UTC 2026 - Elemental Bot <elemental@suse.de>
