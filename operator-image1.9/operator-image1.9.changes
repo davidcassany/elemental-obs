@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Thu May 14 14:23:07 UTC 2026 - Elemental Bot <elemental@suse.de>
+
+- Changes on top of v1.9.1:
+  * 2357557d Bump golangci/golangci-lint-action
+  * 57d838fc use a real UUID for the machine registration ID
+  * 80dc68e5 Bump google.golang.org/grpc library (bsc#1260277 CVE-2026-33186)
+  * 6dceb411 Deterministic endpoints for MachineRegistrations (#975)
+
+-------------------------------------------------------------------
 Mon Mar 23 12:21:38 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Update to v1.9.1:

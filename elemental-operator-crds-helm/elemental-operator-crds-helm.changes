@@ -1,11 +1,30 @@
 -------------------------------------------------------------------
-Tue Mar  3 09:06:44 UTC 2026 - Elemental Bot <elemental@suse.de>
+Thu May 14 13:52:08 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.8.1:
+  * c44250ec Bump golangci/golangci-lint-action
+  * 57fe82d9 Bump google.golang.org/grpc library (bsc#1260277 CVE-2026-33186)
+  * 401d0f6e use a real UUID for the machine registration ID
+  * 7e0af435 Bump go.opentelemetry.io/otel/sdk and k8s.io/kubernetes
+            libraries
+  * 87352e15 Bump test environment tools in Makefile
+  * e374a03b Run 'make vendor' to recreate vendor folder
+  * 9331f456 Bump yip
+  * 213a6595 Fix unit tests after bumping libraries
+  * 2793954d Run 'make vendor' to recreate vendor folder
+  * 386a5d5e Bump wrangler from v2 to v3
+  * 1b492a22 Run make generate
+  * 8bcaa49c Bump controller generator to version 0.19
+  * f04557e3 Update controller runtime options
+  * c28eb8f5 Run 'make vendor' to recreate vendor folder
+  * 1ca20dd7 Updated cluster-api, steve, rancher/apis, client-go and k8s/api
+            to the level they were at rancher v2.13
   * 7da6252b Bump unit test environment artifacts
   * ca805f37 Remove elemental-register as this will be taken form 1.9.x
             branch
   * 37ec9f41 Remove latest tag for 1.8.x image series
+  * 49ebf0b7 Update headers to 2026
+  * fd13ba92 Update questions to include SL Micro 6.2
 
 -------------------------------------------------------------------
 Fri Jan 16 12:46:00 UTC 2026 - Elemental Bot <elemental@suse.de>
