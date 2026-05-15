@@ -1,7 +1,7 @@
 # Sets the relation of branches in current repository with
 # source repositories branches
 
-staging:
+staging_fork:
 - repo: rancher/elemental-toolkit
   branch: v2.3.x
   parseVersion: patch
@@ -10,8 +10,8 @@ staging:
   branch: v1.9.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.8.x
+- repo: davidcassany/elemental-operator
+  branch: bump_x_net_1.8
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
@@ -23,13 +23,13 @@ staging:
   parseVersion: none
   versionOffset: no
 
-maintenance_6.2:
+maintenance_6.2_fork:
 - repo: rancher/elemental-toolkit
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.8.x
+- repo: davidcassany/elemental-operator
+  branch: bump_x_net_1.8
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
