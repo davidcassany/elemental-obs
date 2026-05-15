@@ -15,11 +15,11 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit b42116d4641cdda51cae4187dda07396d3dd9a50
-%define c_date 20260323
+%define commit e24777486045b51dee09128ac28bd5bd3ae354fa
+%define c_date 20251218
 
 Name:           elemental-register
-Version:        1.9.1
+Version:        1.8.0
 Release:        0
 Summary:        The Elemental Operator registration client
 License:        Apache-2.0

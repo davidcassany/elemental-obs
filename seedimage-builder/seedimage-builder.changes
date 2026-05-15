@@ -1,11 +1,9 @@
 -------------------------------------------------------------------
-Tue Mar  3 09:06:44 UTC 2026 - Elemental Bot <elemental@suse.de>
+Thu Dec 18 10:10:18 UTC 2025 - Elemental Bot <elemental@suse.de>
 
-- Changes on top of v1.8.1:
-  * 7da6252b Bump unit test environment artifacts
-  * ca805f37 Remove elemental-register as this will be taken form 1.9.x
-            branch
-  * 37ec9f41 Remove latest tag for 1.8.x image series
+- Changes on top of v1.8.0:
+  * e2477748 Install yip config files in before-install step
+  * 2f948e12 Bump github.com/rancher-sandbox/go-tpm and its dependencies
 
 -------------------------------------------------------------------
 Fri Jan 16 12:46:00 UTC 2026 - Elemental Bot <elemental@suse.de>
