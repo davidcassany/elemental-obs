@@ -18,8 +18,8 @@ staging_fork:
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-channels
-  branch: v1.8
+- repo: davidcassany/elemental-channels
+  branch: update_1.8_channels
   parseVersion: none
   versionOffset: no
 
@@ -36,8 +36,8 @@ maintenance_6.2_fork:
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-channels
-  branch: v1.8
+- repo: davidcassany/elemental-channels
+  branch: update_1.8_channels
   parseVersion: none
   versionOffset: no
 
