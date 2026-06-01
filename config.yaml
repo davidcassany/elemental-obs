@@ -10,8 +10,8 @@ staging_fork:
   branch: v1.9.x
   parseVersion: patch
   versionOffset: no
-- repo: davidcassany/elemental-operator
-  branch: bump_x_net_1.8
+- repo: rancher/elemental-operator
+  branch: v1.8.x
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
@@ -28,8 +28,8 @@ maintenance_6.2_fork:
   branch: v2.3.x
   parseVersion: patch
   versionOffset: no
-- repo: davidcassany/elemental-operator
-  branch: bump_x_net_1.8
+- repo: rancher/elemental-operator
+  branch: v1.8.x
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental
