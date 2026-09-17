@@ -1,8 +1,22 @@
 -------------------------------------------------------------------
-Fri Jun 19 11:34:15 UTC 2026 - Elemental Bot <elemental@suse.de>
+Wed Sep 16 14:33:34 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.9.2:
+  * dfee6590 User Rewrite function instead of a Director function in
+            ReverseProxy
+  * 4986b0e9 Bump rancher-sandbox/go-tpm
+  * 3cb02a60 Bump grpc library to v1.83.2
+  * 1175dbba Bump to golang 1.26
+  * 279d5f08 bump go-attestation
+  * 7375c826 Bump test environment
+  * 8bf09fcd Bump generators
+  * 56104181 Bump wrangler to v3.6.1
+  * f44d0a97 Bump grpc-ecosystem/grpc-gateway/v2
+  * 0c104e17 ⏺ fix(tpm): fix duplicate emulated TPM seeds on UUID suffix
+            collision (#1018)
   * 3605ef3f Change tags order to facilitate OBS builds
+  * 893fbf0f Fix reference in labels
+  * dfaf68ac Adapt labels to pass OBS container checks
 
 -------------------------------------------------------------------
 Tue Jun  9 11:20:17 UTC 2026 - Elemental Bot <elemental@suse.de>
