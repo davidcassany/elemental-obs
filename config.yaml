@@ -1,21 +1,21 @@
 # Sets the relation of branches in current repository with
 # source repositories branches
 
-staging:
-- repo: rancher/elemental-toolkit
-  branch: v2.3.x
+staging_fork:
+- repo: davidcassany/elemental-toolkit
+  branch: bump_libraries_2.3
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.9.x
+- repo: davidcassany/elemental-operator
+  branch: bump_libraries_1.9
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-operator
   branch: v1.8.x
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental
-  branch: v2.3.x
+- repo: davidcassany/elemental-os
+  branch: update_kvm_flavor
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-channels
@@ -23,17 +23,17 @@ staging:
   parseVersion: none
   versionOffset: no
 
-maintenance_6.2:
-- repo: rancher/elemental-toolkit
-  branch: v2.3.x
+maintenance_6.2_fork:
+- repo: davidcassany/elemental-toolkit
+  branch: bump_libraries_2.3
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental-operator
-  branch: v1.8.x
+- repo: davidcassany/elemental-operator
+  branch: bump_libraries_1.8
   parseVersion: patch
   versionOffset: no
-- repo: rancher/elemental
-  branch: v2.3.x
+- repo: davidcassany/elemental
+  branch: update_kvm_flavor
   parseVersion: patch
   versionOffset: no
 - repo: rancher/elemental-channels
