@@ -1,10 +1,14 @@
 -------------------------------------------------------------------
-Fri Sep 18 07:49:00 UTC 2026 - Elemental Bot <elemental@suse.de>
+Fri Sep 18 15:01:23 UTC 2026 - Elemental Bot <elemental@suse.de>
 
 - Changes on top of v1.9.2:
-  * ca68570a Bump github.com/rancher/yip
-  * 6c1fc839 Bump google.golang.org/grpc
-  * 8cbbec77 Bump to golang 1.26
+  * aa07866b bump yip library
+  * de30cc04 User Rewrite function instead of a Director function in
+            ReverseProxy
+  * b6276b55 Bump rancher-sandbox/go-tpm
+  * 3335ff8d Bump grpc library to v1.83.2
+  * 2be1c7ef Bump to golang 1.26
+  * 279d5f08 bump go-attestation
   * 7375c826 Bump test environment
   * 8bf09fcd Bump generators
   * 56104181 Bump wrangler to v3.6.1
