@@ -15,7 +15,7 @@
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
-%define commit ca68570a9741f202a08a5614aff2de581703728d
+%define commit aa07866b7d74d3a4221e3c8c7cecf1dc8185b527
 %define c_date 20260918
 
 %define minorv 1.9
@@ -43,7 +43,7 @@ BuildRequires:  make
 BuildRequires:  grep
 
 %if 0%{?suse_version}
-BuildRequires:  golang(API) >= 1.26
+BuildRequires:  golang(API) == 1.26
 BuildRequires:  golang-packaging
 %{go_provides}
 %else
@@ -54,7 +54,7 @@ BuildRequires:  golang-packaging
 %if (0%{?centos_version} == 800) || (0%{?rhel_version} == 800)
 BuildRequires:  go1.26
 %else
-BuildRequires:  compiler(go-compiler) >= 1.26
+BuildRequires:  compiler(go-compiler) == 1.26
 %endif
 %endif
 
